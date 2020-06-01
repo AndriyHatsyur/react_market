@@ -1,0 +1,16 @@
+.footer {
+  height: 73px;
+  padding-top: 22px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  text-align: center;
+  word-spacing: 15px;
+  background: rgba(192, 196, 206, 0.127321);
+  font-family: Brands;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #c0c4ce;
+  flex: 0 0 auto;
+}

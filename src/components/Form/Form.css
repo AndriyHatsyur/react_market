@@ -1,0 +1,28 @@
+.form_auth_container {
+  width: 425px;
+  background: #ffffff;
+  box-shadow: 0px 2px 42px rgba(0, 0, 0, 0.111233);
+  border-radius: 7px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  margin: auto;
+  margin-bottom: 21px;
+  padding: 25px 24px 21px 24px;
+}
+
+.form_header {
+  font-size: 22px;
+  line-height: 25px;
+  color: #282828;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.errorApi {
+  text-align: center;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgb(231, 94, 94);
+}

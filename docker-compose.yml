@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  sample:
+    container_name: sample
+    image: sample:dev
+    restart: always
+    stdin_open: true
+    ports:
+      - 3000:3000

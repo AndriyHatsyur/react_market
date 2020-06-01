@@ -1,0 +1,101 @@
+.circle {
+  width: 40px;
+  height: 38px;
+  left: 1185px;
+  top: 22px;
+  background: #f1c40f;
+  margin: 0 38px 0 38px;
+  font-size: 14px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(19, 15, 2, 0.72);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.detailInfo {
+  width: 204px;
+  height: 150px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 64px;
+  right: 77px;
+  padding-top: 9px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  z-index: 999999;
+}
+
+.detailInfo a {
+  text-decoration: none;
+}
+
+.infoCircle {
+  width: 48px;
+  height: 46px;
+  margin: 0;
+  margin-right: 13px;
+  margin-bottom: 20px;
+  margin-left: 16px;
+}
+
+.blockInfo {
+  display: flex;
+  flex-direction: row;
+}
+
+.userInfo {
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.fullName {
+  color: #000000;
+}
+
+.email {
+  color: #979797;
+}
+
+.profile {
+  color: #349a89;
+  cursor: pointer;
+}
+
+.detailInfo button {
+  width: 100%;
+  background: none;
+  border: 0;
+  padding-top: 14px;
+  padding-bottom: 11px;
+  text-align: left;
+  border-top: 1px solid #e4e4e4;
+  padding-left: 16px;
+}
+
+.link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #349a89;
+  cursor: pointer;
+  padding-bottom: 14px;
+  padding-left: 16px;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #41867b;
+}

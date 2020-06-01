@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.chatInfo {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+}
+
+.userInfo,
+.productInfo {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.userInfo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 0 16px;
+}
+
+.userInfo span {
+  font-size: 15px;
+  line-height: 22px;
+  color: #131314;
+}
+
+.productInfo img {
+  width: 41px;
+  height: 41px;
+}
+
+.productInfo {
+  margin: 3px 0 5px 52px;
+  padding: 11px 22px 5px 13px;
+  background: #f8f8f8;
+  border-radius: 5px;
+}
+
+.productTitle {
+  display: flex;
+  flex-direction: column;
+  margin: 0 33px 0 9px;
+}

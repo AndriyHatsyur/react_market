@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main {
+  margin: auto;
+  flex: 1 0 auto;
+  width: 67%;
+}
+
+.productContainer {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 860px;
+  margin: auto;
+}
+
+.moreBtn {
+  width: 131px;
+  height: 31px;
+  background: #349a89;
+  font-size: 14px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.moreBtn:hover {
+  background: #32af9a;
+}

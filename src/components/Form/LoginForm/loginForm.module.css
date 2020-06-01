@@ -1,0 +1,10 @@
+.small {
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: #8c8c8c;
+  margin-top: 5px;
+  margin-bottom: 16px;
+  display: block;
+  text-align: right;
+}

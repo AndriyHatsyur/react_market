@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  padding-top: 18px;
+  justify-content: flex-end;
+  align-items: center;
+  margin: auto;
+  height: 42px;
+  width: 96%;
+  max-width: 1125px;
+  position: relative;
+}
+
+.logo {
+  display: block;
+  margin-right: auto;
+  margin-bottom: auto;
+}
+
+.link {
+  background: none;
+  font-family: Helvetica;
+  font-size: 12px;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #2b2b2b;
+  padding: 0 40px 0 33px;
+}
+
+.searchHeaderContainer {
+  height: 166px;
+  background: linear-gradient(180deg, #090810 0%, #171236 100%);
+}
+
+.searchLink {
+  color: #ffffff;
+}
+
+.profileHeaderContainer {
+  height: 77px;
+  background: linear-gradient(180deg, #090810 0%, #171236 100%);
+}
+
+.chat {
+  margin-right: 18px;
+  margin-top: 4px;
+}

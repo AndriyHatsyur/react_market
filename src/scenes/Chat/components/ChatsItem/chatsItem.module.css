@@ -1,0 +1,81 @@
+.chatItem {
+  display: flex;
+  align-items: center;
+  max-width: 540px;
+  min-width: 340px;
+  height: 107px;
+  padding: 0 21px 0 26px;
+  margin: 0 14px 10px 0;
+  background: #ffffff;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+  font-family: Roboto;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.active {
+  border-left: 4px solid #349a89;
+  margin-left: 24px;
+  margin-right: 0;
+}
+
+.chatParticipant {
+  width: 40%;
+  height: 36px;
+  border-right: 1px solid #e7e9ed;
+}
+
+.chatParticipant h4 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #000000;
+}
+
+.chatParticipant span {
+  font-size: 15px;
+  line-height: 152.1%;
+  color: rgba(43, 43, 43, 0.499918);
+  margin-left: 4px;
+}
+
+.chatProduct {
+  width: 40%;
+  height: 36px;
+  border-right: 1px solid #e7e9ed;
+  margin: 0 22px;
+  display: flex;
+}
+
+.chatProduct img {
+  max-width: 47px;
+  height: 47px;
+  margin-right: 8px;
+}
+
+.chatProduct h4 {
+  font-size: 15px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.chatProduct span {
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 31px;
+  color: #000000;
+}
+
+.productInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.time {
+  font-size: 15px;
+  line-height: 152.1%;
+  text-align: right;
+  color: rgba(43, 43, 43, 0.499918);
+}

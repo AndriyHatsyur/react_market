@@ -1,0 +1,89 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.container span {
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 26px;
+  text-align: right;
+  color: #97a3b4;
+}
+
+.messageContainer,
+.viewerMessageContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 30%;
+}
+
+.messageContainer {
+  align-self: flex-end;
+}
+
+.viewerMessageContainer {
+  align-self: flex-start;
+}
+
+.message {
+  position: relative;
+  border-radius: 0.4em;
+  padding: 6px 19px;
+  margin: 10px;
+  background: #ffffff;
+  word-wrap: break-word;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15.6px;
+  line-height: 22px;
+  color: #131314;
+}
+
+.message:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 30%;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-left-color: #ffffff;
+  border-right: 0;
+  border-top: 0;
+  margin-top: -5px;
+  margin-right: -10px;
+}
+
+.viewerMessage {
+  position: relative;
+  background: #349a89;
+  border-radius: 0.4em;
+  margin-bottom: 10px;
+  padding: 6px 19px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 26px;
+  word-wrap: break-word;
+  font-size: 15.6px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.viewerMessage:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 30%;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-right-color: #349a89;
+  border-left: 0;
+  border-top: 0;
+  margin-top: -5px;
+  margin-left: -8px;
+}

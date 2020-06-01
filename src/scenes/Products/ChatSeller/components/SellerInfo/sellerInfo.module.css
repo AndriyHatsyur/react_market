@@ -1,0 +1,39 @@
+.container {
+  margin-top: 24px;
+}
+.container h2 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #373738;
+}
+
+.owner {
+  display: flex;
+  margin: 16px 0;
+}
+
+.owner div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.owner img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin: 0 16px;
+}
+
+.owner h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+  color: #2b2b2b;
+}
+
+.owner span {
+  font-size: 15px;
+  line-height: 17px;
+  color: rgba(43, 43, 43, 0.499918);
+}

@@ -1,0 +1,24 @@
+.submit {
+  border: 0;
+  background: #349a89;
+  border-radius: 5px;
+  height: 58px;
+  width: 377px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.4px;
+  color: #ffffff;
+}
+
+.submit:disabled {
+  background: #81afa7;
+}
+
+.submit:focus {
+  outline: none;
+}
+
+.submit:hover {
+  background: #246e62;
+}
