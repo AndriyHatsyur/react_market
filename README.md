@@ -1,5 +1,4 @@
 
-Open [https://courses-marketplace.herokuapp.com/](https://courses-marketplace.herokuapp.com/) or  [http://144.91.112.180:3000/](http://144.91.112.180:3000/) to view demo  .
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
